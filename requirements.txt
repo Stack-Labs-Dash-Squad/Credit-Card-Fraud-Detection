@@ -2,8 +2,6 @@ matplotlib
 streamlit 
 pandas 
 numpy
-matplotlib.pyplot 
-matplotlib.gridspec 
 seaborn 
 tqdm
 warnings
