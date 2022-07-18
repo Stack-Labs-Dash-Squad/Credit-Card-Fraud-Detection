@@ -1,3 +1,4 @@
+import matplotlib
 import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 showPyplotGlobalUse = False
@@ -34,10 +35,19 @@ if pagina == 'Principal':
 
     st.write('Desenvolvedores')
     st.write('Paula Muniz')
+    st.write("[Linkedin](https://www.linkedin.com/in/paula-pereira-muniz/)")
+    
     st.write('Rafael Panegassi')
+    st.write("[Linkedin](https://www.linkedin.com/in/rafaelpanegassi/)")
+    
     st.write('Arildo Júnior')
-    st.write('André')
-
+    st.write("[Linkedin](https://www.linkedin.com/in/arildo-de-azevedo-junior/)")
+    
+    st.write('André Balbi Aguiar')
+    st.write("[Linkedin](https://www.linkedin.com/in/andre-balbi-aguiar/)")
+    
+    st.write('Repositório')
+    st.write("[GIT](https://github.com/Stack-Labs-Dash-Squad/Credit-Card-Fraud-Detection)")
 
 # importando os dados
 
