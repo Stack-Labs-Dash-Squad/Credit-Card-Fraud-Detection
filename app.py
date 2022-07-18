@@ -1,5 +1,5 @@
-import matplotlib
 import streamlit as st
+import matplotlib
 st.set_option('deprecation.showPyplotGlobalUse', False)
 showPyplotGlobalUse = False
 
