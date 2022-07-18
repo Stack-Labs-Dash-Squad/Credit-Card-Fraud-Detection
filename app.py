@@ -166,6 +166,8 @@ if pagina == 'Graficos':
 
     if checkbox_explorando_cada_variavel:
         st.write('Explorando cada uma das 28 variaveis')
+        
+        st.write('Através da plotagem de histogramas de distribuição para cada uma das 28 variáveis, vamos investigar se existem regiões distintas entre os dois tipos de classes, para podermos capturar efeitos de diferenciação entre as duas classes.')
 
         # Armazenando as colunas das variaveis explicativas em uma variavel
         num_cols = dados.columns[1:29]
